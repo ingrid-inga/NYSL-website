@@ -1,0 +1,95 @@
+* :not(dd) { /* A todos los elementos que NO SEAN <dd>*/
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      min-width: 100vw;
+      
+  }
+
+
+header {
+    background: url("./Images/design2_image1.jpg") top center no-repeat ;
+    background-size: cover;
+    background-color: red;
+    height: 40vh;
+    
+}
+
+h1 {
+    padding-left: 60px;
+    background-color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h2 {
+
+    width: 100vw;
+    height: 40px;
+    color: rgb(226, 216, 236);
+    background-color: rgb(5, 5, 56);
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 40vh;
+
+}
+
+#logo {
+    height: 20vh;
+    position: absolute;
+    display: block;
+    margin-top: 80px;
+    
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+   
+
+    
+}
+
+
+
+nav > *{
+    color: white;
+    background-color: rgb(57, 57, 207);
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 10px 5px 5px black;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+
+  
+    
+
+}
+
+nav :hover {
+
+    background-color:green;
+}
+
+
+main {
+    margin-top: 80px;
+    width: 80vw;
+    margin-left: 200px;
+
+
+}
+
+dd {
+    display: block;
+    height: 70px;
+
+
+}

@@ -1,0 +1,77 @@
+* :not(dd) { 
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+    min-width: 100vw;
+}
+
+
+header {
+    background-image: url("./Images/design1_image1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 40vh;  
+    
+}
+
+h1 {
+    padding: 0 0 0 0.5em;
+    color: rgb(243, 243, 229);  
+    font-size: 60px;
+}
+
+h2 {
+    width: 100vw;
+    height: 40px;
+    color: rgb(226, 216, 236);
+    background-color: rgb(5, 5, 56);
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 40vh;
+   
+   
+ 
+    
+}
+
+
+#logo {
+    height: 120px;
+    position: absolute;
+    top: calc(40vh - (120px / 2) + (40px/ 2));
+    right: 50px;
+
+}
+
+nav {
+    display: block;
+    margin: 70px 0 0 20px;
+    max-width: 10vw;
+    height: 0vh;
+
+}
+
+nav > *{
+    display: block;
+    height: 80px;
+    
+}
+
+main{
+    margin-bottom: 100px;
+    display: block;
+    width: 75vw;
+    height: 90vh;
+    margin-left: 180px;
+}
+   
+dd {
+    display: block;
+    height: 70px;
+
+}
